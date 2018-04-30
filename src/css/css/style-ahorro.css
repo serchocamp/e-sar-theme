@@ -1,0 +1,76 @@
+/*
+ * author: ProceSAR
+ * Contributing author: Enjoystic & Mariana Pérez (MarPF), Karla García, Martín Villalón
+ */
+
+/* ===================================
+   General
+==================================== */
+
+/*Ahorro Solidario*/
+#ahorroform  h3 {color: #106ca8; font-weight:300; margin-top:30px;}
+ul.cuadraditos {list-style: none; padding:0 0 15px; margin:0;}
+.cuadraditos li {padding-left: 50px; text-indent: -20px;}
+.cuadraditos li:before {font-family: FontAwesome; content: "\f0c8";  color: #004d72; margin-right: 12px; font-size:10px; }
+.ahorro strong {font-weight:600;}
+.ahorro-ejemplo {max-width:811px; width:100%; height:auto;}
+.alto1 {max-height:240px;}
+.alto2 {max-height:594px;}
+.alto3 {max-height:360px;}
+.ahorro-service, .ahorro-service .fa-3x {height: 150px;}
+.ahorro-service a {color:#333; text-align:left;}
+.ahorro-service a i {color:#004d71;}
+.ahorro-service strong {color:#106ca8; font-family: 'Ubuntu', Arial, sans-serif; font-weight: 400; font-size:17px;}
+.ahorro-service a:hover i, .ahorro-service a.on i {color:#70af23;}
+.tabla-ahorro th {color:#004d72; font-weight:400; padding:10px 20px 24px !important; vertical-align:top !important;}
+.tabla-ahorro td {padding:10px 20px !important; vertical-align:middle !important; width:100px;}
+.tabla-ahorro th:first-child, .tabla-ahorro td:first-child {padding:0 !important;  width:20px;}
+.seccion1 {min-height: 210px !important; padding:0 !important; }
+.seccion2 {min-height: 740px !important;}
+.notop  {margin-top:0;}
+#aside .recuadro2 {background: #f7f7f7; display:block; width:100%; height:64px;}
+#aside .btngray2 {width: 100%; text-align:left; background: #f7f7f7; font-weight:300; margin-top:10px; font-size:19px; padding-top:8px; padding-bottom:0;}
+#aside .recuadro2:first-child {border-top-left-radius: 6px; border-top-right-radius: 6px;}
+#aside .recuadro2:last-child {border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;}
+#aside a {color:#666;}
+#aside .btn-invisible {display:none;}
+#aside .fontverde {color:#70af23; display:inline-block;margin-bottom:0;vertical-align:middle;  padding:10px 16px;line-height:22px;}
+#aside a:hover.fontazul, #aside .fontazul i, #aside .fontazul.on {color: #004d71;}
+#aside.seccion1 .btn {white-space: normal;}
+
+/* ===================================
+   Media Queries
+==================================== */
+
+@media (max-width:991px){
+	.ahorro-service {float:left; width: 46%;}
+	.ahorro-emptycol {float:left; width: 4%;}
+	.tabla-ahorro th {padding:10px 6px 24px !important;}
+	.tabla-ahorro td {padding:10px 6px !important; }
+	.tabla-ahorro th:first-child, .tabla-ahorro td:first-child {padding:0 !important;}
+	#aside .recuadro2 {height:66px;}
+	}
+@media(max-width:767px){
+	.seccion2 {min-height: 400px !important;}
+	#aside.seccion1 {background-color: #F7F7F7; min-height: 140px !important; margin-bottom:20px;}
+	#aside .log1 {width: 100%; display:inline-block;}
+	#aside .log2 {width: 57%; display:inline-block; padding-right:0;}
+	#aside .log3 {width: 42%; display:inline-block; text-align:right; padding-right:0;}
+}
+@media (max-width:487px){
+	#aside.seccion1 {min-height: 200px !important; margin-bottom:30px;}
+	#aside .recuadro2 {width: 100%; display:inline-block;}
+	.ahorro-service {width: 49%; height:200px; margin-right:1%;}
+	.ahorro-service .fa-3x { font-size:18px;}
+	.ahorro-emptycol {display:none;}
+	.ahorro-service strong { font-size: 16px;}
+	}
+	
+.not-active{
+	pointer-events: none;
+	cursor: default;
+}
+.disable{
+	color: #999;
+}
+

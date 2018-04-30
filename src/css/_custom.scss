@@ -1,0 +1,83 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+/* margen de los web content en 0px*/
+.portlet-content,.portlet-minimized .portlet-content-container {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+/* titulo de los web content*/
+
+.portlet-title-text {
+    display: none!important;
+    margin-top: 0;
+    max-width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+/*--menu de liferay*/
+.affix,.control-menu {
+      position: initial!important;
+  }
+
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #efefef!important;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+
+
+.col-md-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+/* letras de control panel  */
+.nav-equal-height > li > a, .nav-equal-height .nav > li > a, .nav-equal-height-heading > a, .nav-equal-height-heading > span {
+    display: table-cell;
+    height: 40px;
+    max-width: 220px!important;
+    min-width: 100px;
+    vertical-align: middle;
+    word-break: break-all \9;
+    word-wrap: break-word;
+}
+
+
+.portlet {
+    margin-bottom: 0px!important;
+    position: relative;
+}
+
+
+
+
+header.portlet-topper {
+    height: 50px;
+    width: 100%;
+}

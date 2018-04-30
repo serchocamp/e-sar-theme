@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 7.0.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_7_0_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>7.0.0+</version>
+	</compatibility>
+	<theme id="e-sar" name="e-sar">
+		<template-extension>ftl</template-extension>
+
+	<settings>
+
+		<setting configurable="true" key="mostrar-tutorial" type="checkbox" value="true"/>
+		<setting configurable="true" key="referencia-tutorial" type="text"/>
+		<setting configurable="true" key="mostrar-contactanos" type="checkbox" value="true"/>
+		<setting configurable="true" key="referencia-contactanos" type="text"/>
+		<setting configurable="true" key="mostrar-chat" type="checkbox" value="true"/>
+		<setting configurable="true" key="referencia-chat" type="text"/>
+		<setting configurable="true" key="mostrar-preguntas" type="checkbox" value="true"/>
+		<setting configurable="true" key="referencia-preguntas" type="text"/>
+        <setting configurable="true" key="variable" type="text"/>
+<setting configurable="true" key="x" type="text"/>
+
+
+		</settings>
+
+		<portlet-decorator id="barebone" name="Barebone">
+			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
+		</portlet-decorator>
+		<portlet-decorator id="borderless" name="Borderless">
+			<portlet-decorator-css-class>portlet-borderless</portlet-decorator-css-class>
+		</portlet-decorator>
+		<portlet-decorator id="decorate" name="Decorate">
+			<default-portlet-decorator>true</default-portlet-decorator>
+			<portlet-decorator-css-class>portlet-decorate</portlet-decorator-css-class>
+		</portlet-decorator>
+	</theme>
+</look-and-feel>
